@@ -87,6 +87,10 @@ html,body{
                      
                      p{
                         font-size: 1.2em;
+
+                        &:hover{
+                           color: $softRed;
+                        }
                      }
 
                      .faq__question-active{
